@@ -56,7 +56,7 @@ class FileService
         }
 
         if (!$file->getClientOriginalExtension() === 'pdf') {
-            return new Exception('Extensão não permitida!');
+            return new Exception('Extension not allowed!');
         }
 
         File::delete([
@@ -93,7 +93,7 @@ class FileService
     public function delete(Model $model)
     {
         File::delete([
-            public_path() . $model->anexo
+            public_path() . $model->file
         ]);
     }
 }
