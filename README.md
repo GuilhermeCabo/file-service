@@ -11,7 +11,7 @@ This thing was made to be used with controller resources, like store and update,
 
 
 
-### First of all, place this repository on your app folder on laravel
+### First of all, place this repository on your app folder on your project
 
 
 
