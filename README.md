@@ -57,7 +57,7 @@ File Service has three functions:
   * delete
 
 
-So let's se how to call them on your controllers
+So let's see how to call them on your controllers
 
 
 Add these variables on the beginning of your controller class
@@ -116,7 +116,7 @@ Now let see it in action:
 
 
 
-* basic delete exemple:
+   * basic delete exemple:
 
 ``` php
 
